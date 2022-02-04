@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<style>
+			* {
+				padding:0;
+				margin:0;
+			}
+			canvas {
+				border: 1px solid red;
+			}
+			body{
+				background-color:black;
+				color:white;
+			}
+			#analyzeButton{
+				width: 70px;
+				height: 70px;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="analyzeButton">Analyze</button>
+		<audio src="./audio/dialtone1.mp3" controls id="audioClip"></audio>
+		<div id="canvasContainer">
+		</div>
+		<h1 id="output"></h1>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
